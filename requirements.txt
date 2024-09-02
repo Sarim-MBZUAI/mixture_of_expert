@@ -1,0 +1,9 @@
+pandas==2.1.0
+matplotlib==3.7.2
+seaborn==0.12.2
+crewai==0.1.30
+langchain-groq==0.0.5
+langchain==0.0.338
+langchain-community==0.0.13
+python-dotenv==1.0.0
+requests==2.31.0
