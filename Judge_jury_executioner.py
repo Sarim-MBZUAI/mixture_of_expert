@@ -11,14 +11,19 @@ from langchain.agents import load_tools
 from langchain_community.tools import DuckDuckGoSearchResults
 from langchain_core.prompts import ChatPromptTemplate
 import logging
+
 # Load the CSV file
 df = pd.read_csv('./data/serial_killers_data.csv')
 
 # Randomly select 3 serial killers
-selected_killers = df.sample(n=30)
+selected_killers = df.sample(n=15)
 os.environ["GROQ_API_KEY"] = get_groq_api_key()
 llm = ChatGroq(temperature=0, model_name="llama3-70b-8192")
-
+def safe_int(value):
+    try:
+        return int(value)
+    except (ValueError, TypeError):
+        return 'Unknown'
 Judge = Agent(
     role="Senior Judge at Supreme Court",
     goal="Ensure fair trials and make impartial decisions based on law and evidence.",

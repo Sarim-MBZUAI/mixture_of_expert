@@ -1,0 +1,68 @@
+2024-09-02 22:49:53 - INFO - Script execution started
+2024-09-02 22:49:53 - DEBUG - This is a debug message
+2024-09-02 22:49:53 - WARNING - This is a warning message
+2024-09-02 22:49:53 - ERROR - This is an error message
+2024-09-02 22:49:53 - INFO - Script execution started
+2024-09-02 22:49:53 - INFO - Loaded CSV file with 811 entries
+2024-09-02 22:49:53 - INFO - Selected killer: Keith Hunter Jesperson
+2024-09-02 22:49:53 - INFO - Processing killer: Keith Hunter Jesperson
+2024-09-02 22:49:59 - INFO - Successfully processed Keith Hunter Jesperson
+2024-09-02 22:49:59 - INFO - Extracted sentence for Keith Hunter Jesperson: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:49:59 - INFO - Report saved as: criminal_reports/Keith_Hunter_Jesperson_report.md
+2024-09-02 22:49:59 - INFO - Processing killer: Brian Field
+2024-09-02 22:50:04 - INFO - Successfully processed Brian Field
+2024-09-02 22:50:04 - INFO - Extracted sentence for Brian Field: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:50:04 - INFO - Report saved as: criminal_reports/Brian_Field_report.md
+2024-09-02 22:50:04 - INFO - Processing killer: Lyda Southard
+2024-09-02 22:50:19 - INFO - Successfully processed Lyda Southard
+2024-09-02 22:50:19 - INFO - Extracted sentence for Lyda Southard: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:50:19 - INFO - Report saved as: criminal_reports/Lyda_Southard_report.md
+2024-09-02 22:50:19 - INFO - Processing killer: Craig Price
+2024-09-02 22:50:44 - INFO - Successfully processed Craig Price
+2024-09-02 22:50:44 - INFO - Extracted sentence for Craig Price: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:50:44 - INFO - Report saved as: criminal_reports/Craig_Price_report.md
+2024-09-02 22:50:44 - INFO - Processing killer: Aino Nykopp-Koski
+2024-09-02 22:51:22 - INFO - Successfully processed Aino Nykopp-Koski
+2024-09-02 22:51:22 - INFO - Extracted sentence for Aino Nykopp-Koski: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:51:22 - INFO - Report saved as: criminal_reports/Aino_Nykopp-Koski_report.md
+2024-09-02 22:51:22 - INFO - Processing killer: Thierry Paulin
+2024-09-02 22:51:50 - INFO - Successfully processed Thierry Paulin
+2024-09-02 22:51:50 - INFO - Extracted sentence for Thierry Paulin: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:51:50 - INFO - Report saved as: criminal_reports/Thierry_Paulin_report.md
+2024-09-02 22:51:50 - INFO - Processing killer: Stanisław Modzelewski
+2024-09-02 22:52:21 - INFO - Successfully processed Stanisław Modzelewski
+2024-09-02 22:52:21 - INFO - Extracted sentence for Stanisław Modzelewski: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:52:21 - INFO - Report saved as: criminal_reports/Stanisław_Modzelewski_report.md
+2024-09-02 22:52:21 - INFO - Processing killer: Ted Kaczynski
+2024-09-02 22:52:49 - INFO - Successfully processed Ted Kaczynski
+2024-09-02 22:52:49 - INFO - Extracted sentence for Ted Kaczynski: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:52:49 - INFO - Report saved as: criminal_reports/Ted_Kaczynski_report.md
+2024-09-02 22:52:49 - INFO - Processing killer: Özkan Zengin
+2024-09-02 22:53:19 - INFO - Successfully processed Özkan Zengin
+2024-09-02 22:53:19 - INFO - Extracted sentence for Özkan Zengin: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:53:19 - INFO - Report saved as: criminal_reports/Özkan_Zengin_report.md
+2024-09-02 22:53:19 - INFO - Processing killer: Slamet Tohari
+2024-09-02 22:53:48 - INFO - Successfully processed Slamet Tohari
+2024-09-02 22:53:48 - INFO - Extracted sentence for Slamet Tohari: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:53:48 - INFO - Report saved as: criminal_reports/Slamet_Tohari_report.md
+2024-09-02 22:53:48 - INFO - Processing killer: Steven Grieveson
+2024-09-02 22:54:14 - INFO - Successfully processed Steven Grieveson
+2024-09-02 22:54:14 - INFO - Extracted sentence for Steven Grieveson: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:54:14 - INFO - Report saved as: criminal_reports/Steven_Grieveson_report.md
+2024-09-02 22:54:14 - INFO - Processing killer: Siswanto
+2024-09-02 22:54:41 - INFO - Successfully processed Siswanto
+2024-09-02 22:54:41 - INFO - Extracted sentence for Siswanto: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:54:41 - INFO - Report saved as: criminal_reports/Siswanto_report.md
+2024-09-02 22:54:41 - INFO - Processing killer: Adolfo Constanzo and Sara Aldrete
+2024-09-02 22:55:15 - INFO - Successfully processed Adolfo Constanzo and Sara Aldrete
+2024-09-02 22:55:15 - INFO - Extracted sentence for Adolfo Constanzo and Sara Aldrete: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:55:15 - INFO - Report saved as: criminal_reports/Adolfo_Constanzo_and_Sara_Aldrete_report.md
+2024-09-02 22:55:15 - INFO - Processing killer: Stephen Port
+2024-09-02 22:55:46 - INFO - Successfully processed Stephen Port
+2024-09-02 22:55:46 - INFO - Extracted sentence for Stephen Port: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:55:46 - INFO - Report saved as: criminal_reports/Stephen_Port_report.md
+2024-09-02 22:55:46 - INFO - Processing killer: Eddie Leonski
+2024-09-02 22:56:13 - INFO - Successfully processed Eddie Leonski
+2024-09-02 22:56:13 - INFO - Extracted sentence for Eddie Leonski: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-02 22:56:13 - INFO - Report saved as: criminal_reports/Eddie_Leonski_report.md
+2024-09-02 22:56:13 - INFO - Script execution completed
