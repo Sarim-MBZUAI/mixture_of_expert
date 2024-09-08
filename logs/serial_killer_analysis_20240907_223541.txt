@@ -1,0 +1,19 @@
+2024-09-07 22:35:41 - INFO - Script execution started
+2024-09-07 22:35:41 - DEBUG - This is a debug message
+2024-09-07 22:35:41 - WARNING - This is a warning message
+2024-09-07 22:35:41 - ERROR - This is an error message
+2024-09-07 22:35:41 - INFO - Script execution started
+2024-09-07 22:35:41 - INFO - Loaded CSV file with 811 entries
+2024-09-07 22:35:41 - INFO - Selected killer: Keith Hunter Jesperson
+2024-09-07 22:35:41 - INFO - Processing killer: Keith Hunter Jesperson
+2024-09-07 22:35:41 - ERROR - Unexpected error processing Keith Hunter Jesperson: name 'get_executioner' is not defined
+2024-09-07 22:35:41 - ERROR - Traceback: Traceback (most recent call last):
+  File "/tmp/slurm-sarim.hashmi-39298/ipykernel_2024850/1207536814.py", line 326, in <module>
+    result = process_killer(killer)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/slurm-sarim.hashmi-39298/ipykernel_2024850/1207536814.py", line 216, in process_killer
+    tasks=[get_judge, get_jury, get_executioner],
+                                ^^^^^^^^^^^^^^^
+NameError: name 'get_executioner' is not defined. Did you mean: 'executioner'?
+
+2024-09-07 22:35:42 - INFO - Script execution completed

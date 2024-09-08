@@ -1,0 +1,6 @@
+2024-09-07 20:12:19 - INFO - Script execution started
+2024-09-07 20:12:19 - DEBUG - This is a debug message
+2024-09-07 20:12:19 - WARNING - This is a warning message
+2024-09-07 20:12:19 - ERROR - This is an error message
+2024-09-07 20:12:19 - INFO - Loaded CSV file with 811 entries
+2024-09-07 20:12:19 - INFO - Selected killer: Keith Hunter Jesperson

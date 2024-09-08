@@ -1,0 +1,19 @@
+2024-09-08 14:31:53 - INFO - Script execution started
+2024-09-08 14:31:53 - DEBUG - This is a debug message
+2024-09-08 14:31:53 - WARNING - This is a warning message
+2024-09-08 14:31:53 - ERROR - This is an error message
+2024-09-08 14:31:53 - INFO - Script execution started
+2024-09-08 14:31:53 - INFO - Loaded CSV file with 811 entries
+2024-09-08 14:31:54 - INFO - Selected killer: Keith Hunter Jesperson
+2024-09-08 14:31:58 - INFO - Processing killer: Keith Hunter Jesperson
+2024-09-08 14:31:58 - ERROR - Unexpected error processing Keith Hunter Jesperson: name 'Judge' is not defined
+2024-09-08 14:31:58 - ERROR - Traceback: Traceback (most recent call last):
+  File "/tmp/slurm-sarim.hashmi-39392/ipykernel_403086/1777419579.py", line 326, in <module>
+    result = process_killer(killer)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/slurm-sarim.hashmi-39392/ipykernel_403086/1777419579.py", line 215, in process_killer
+    agents=[Judge, jury,prosecutor,defense_attorney],
+            ^^^^^
+NameError: name 'Judge' is not defined. Did you mean: 'judge'?
+
+2024-09-08 14:31:59 - INFO - Script execution completed

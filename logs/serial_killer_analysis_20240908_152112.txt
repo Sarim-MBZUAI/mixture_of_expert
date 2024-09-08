@@ -1,0 +1,29 @@
+2024-09-08 15:21:12 - INFO - Script execution started
+2024-09-08 15:21:12 - INFO - Loaded CSV file with 811 entries
+2024-09-08 15:21:12 - INFO - Selected killer: Keith Hunter Jesperson
+2024-09-08 15:21:12 - INFO - Processing killer: Keith Hunter Jesperson
+2024-09-08 15:21:12 - INFO - Processing results for Keith Hunter Jesperson
+2024-09-08 15:21:15 - INFO - Judge results obtained
+2024-09-08 15:21:15 - WARNING - Unexpected judge results format
+2024-09-08 15:21:15 - INFO - Attempting to save file: criminal_reports/Keith_Hunter_Jesperson_presiding_judge_report.md
+2024-09-08 15:21:15 - INFO - Successfully saved Presiding Judge report for Keith Hunter Jesperson in criminal_reports/Keith_Hunter_Jesperson_presiding_judge_report.md
+2024-09-08 15:21:15 - INFO - Verified: File criminal_reports/Keith_Hunter_Jesperson_presiding_judge_report.md exists
+2024-09-08 15:21:18 - INFO - Jury results obtained
+2024-09-08 15:21:18 - WARNING - Unexpected jury results format
+2024-09-08 15:21:18 - INFO - Attempting to save file: criminal_reports/Keith_Hunter_Jesperson_jury_panel_report.md
+2024-09-08 15:21:18 - INFO - Successfully saved Jury Panel report for Keith Hunter Jesperson in criminal_reports/Keith_Hunter_Jesperson_jury_panel_report.md
+2024-09-08 15:21:18 - INFO - Verified: File criminal_reports/Keith_Hunter_Jesperson_jury_panel_report.md exists
+2024-09-08 15:21:23 - INFO - Prosecutor results obtained
+2024-09-08 15:21:23 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:21:23 - INFO - Attempting to save file: criminal_reports/Keith_Hunter_Jesperson_district_attorney_report.md
+2024-09-08 15:21:23 - INFO - Successfully saved District Attorney report for Keith Hunter Jesperson in criminal_reports/Keith_Hunter_Jesperson_district_attorney_report.md
+2024-09-08 15:21:23 - INFO - Verified: File criminal_reports/Keith_Hunter_Jesperson_district_attorney_report.md exists
+2024-09-08 15:22:00 - INFO - Full crew results obtained
+2024-09-08 15:22:00 - WARNING - Unexpected full crew results format
+2024-09-08 15:22:00 - INFO - Attempting to save file: criminal_reports/Keith_Hunter_Jesperson_defense_counsel_report.md
+2024-09-08 15:22:00 - INFO - Successfully saved Defense Counsel report for Keith Hunter Jesperson in criminal_reports/Keith_Hunter_Jesperson_defense_counsel_report.md
+2024-09-08 15:22:00 - INFO - Verified: File criminal_reports/Keith_Hunter_Jesperson_defense_counsel_report.md exists
+2024-09-08 15:22:00 - INFO - All individual reports saved for Keith Hunter Jesperson
+2024-09-08 15:22:00 - INFO - Successfully processed Keith Hunter Jesperson
+2024-09-08 15:22:00 - INFO - Extracted sentence for Keith Hunter Jesperson: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:22:00 - INFO - Script execution completed

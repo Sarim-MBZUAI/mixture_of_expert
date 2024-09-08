@@ -1,0 +1,555 @@
+2024-09-08 15:24:00 - INFO - Script execution started
+2024-09-08 15:24:00 - INFO - Loaded CSV file with 811 entries
+2024-09-08 15:24:00 - INFO - Selected killer: Keith Hunter Jesperson
+2024-09-08 15:24:00 - INFO - Processing killer: Keith Hunter Jesperson
+2024-09-08 15:24:00 - INFO - Processing results for Keith Hunter Jesperson
+2024-09-08 15:24:07 - INFO - Judge results obtained
+2024-09-08 15:24:07 - WARNING - Unexpected judge results format
+2024-09-08 15:24:07 - INFO - Attempting to save file: criminal_reports/Keith_Hunter_Jesperson_presiding_judge_report.md
+2024-09-08 15:24:07 - INFO - Successfully saved Presiding Judge report for Keith Hunter Jesperson in criminal_reports/Keith_Hunter_Jesperson_presiding_judge_report.md
+2024-09-08 15:24:07 - INFO - Verified: File criminal_reports/Keith_Hunter_Jesperson_presiding_judge_report.md exists
+2024-09-08 15:24:10 - INFO - Jury results obtained
+2024-09-08 15:24:10 - WARNING - Unexpected jury results format
+2024-09-08 15:24:10 - INFO - Attempting to save file: criminal_reports/Keith_Hunter_Jesperson_jury_panel_report.md
+2024-09-08 15:24:10 - INFO - Successfully saved Jury Panel report for Keith Hunter Jesperson in criminal_reports/Keith_Hunter_Jesperson_jury_panel_report.md
+2024-09-08 15:24:10 - INFO - Verified: File criminal_reports/Keith_Hunter_Jesperson_jury_panel_report.md exists
+2024-09-08 15:24:16 - INFO - Prosecutor results obtained
+2024-09-08 15:24:16 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:24:16 - INFO - Attempting to save file: criminal_reports/Keith_Hunter_Jesperson_district_attorney_report.md
+2024-09-08 15:24:16 - INFO - Successfully saved District Attorney report for Keith Hunter Jesperson in criminal_reports/Keith_Hunter_Jesperson_district_attorney_report.md
+2024-09-08 15:24:16 - INFO - Verified: File criminal_reports/Keith_Hunter_Jesperson_district_attorney_report.md exists
+2024-09-08 15:24:53 - INFO - Full crew results obtained
+2024-09-08 15:24:53 - WARNING - Unexpected full crew results format
+2024-09-08 15:24:53 - INFO - Attempting to save file: criminal_reports/Keith_Hunter_Jesperson_defense_counsel_report.md
+2024-09-08 15:24:53 - INFO - Successfully saved Defense Counsel report for Keith Hunter Jesperson in criminal_reports/Keith_Hunter_Jesperson_defense_counsel_report.md
+2024-09-08 15:24:53 - INFO - Verified: File criminal_reports/Keith_Hunter_Jesperson_defense_counsel_report.md exists
+2024-09-08 15:24:53 - INFO - All individual reports saved for Keith Hunter Jesperson
+2024-09-08 15:24:53 - INFO - Successfully processed Keith Hunter Jesperson
+2024-09-08 15:24:53 - INFO - Extracted sentence for Keith Hunter Jesperson: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:24:53 - INFO - Processing killer: Brian Field
+2024-09-08 15:24:53 - INFO - Processing results for Brian Field
+2024-09-08 15:25:06 - INFO - Judge results obtained
+2024-09-08 15:25:06 - WARNING - Unexpected judge results format
+2024-09-08 15:25:06 - INFO - Attempting to save file: criminal_reports/Brian_Field_presiding_judge_report.md
+2024-09-08 15:25:06 - INFO - Successfully saved Presiding Judge report for Brian Field in criminal_reports/Brian_Field_presiding_judge_report.md
+2024-09-08 15:25:06 - INFO - Verified: File criminal_reports/Brian_Field_presiding_judge_report.md exists
+2024-09-08 15:25:34 - INFO - Jury results obtained
+2024-09-08 15:25:34 - WARNING - Unexpected jury results format
+2024-09-08 15:25:34 - INFO - Attempting to save file: criminal_reports/Brian_Field_jury_panel_report.md
+2024-09-08 15:25:34 - INFO - Successfully saved Jury Panel report for Brian Field in criminal_reports/Brian_Field_jury_panel_report.md
+2024-09-08 15:25:34 - INFO - Verified: File criminal_reports/Brian_Field_jury_panel_report.md exists
+2024-09-08 15:26:06 - INFO - Prosecutor results obtained
+2024-09-08 15:26:06 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:26:06 - INFO - Attempting to save file: criminal_reports/Brian_Field_district_attorney_report.md
+2024-09-08 15:26:06 - INFO - Successfully saved District Attorney report for Brian Field in criminal_reports/Brian_Field_district_attorney_report.md
+2024-09-08 15:26:06 - INFO - Verified: File criminal_reports/Brian_Field_district_attorney_report.md exists
+2024-09-08 15:27:00 - INFO - Full crew results obtained
+2024-09-08 15:27:00 - WARNING - Unexpected full crew results format
+2024-09-08 15:27:00 - INFO - Attempting to save file: criminal_reports/Brian_Field_defense_counsel_report.md
+2024-09-08 15:27:00 - INFO - Successfully saved Defense Counsel report for Brian Field in criminal_reports/Brian_Field_defense_counsel_report.md
+2024-09-08 15:27:00 - INFO - Verified: File criminal_reports/Brian_Field_defense_counsel_report.md exists
+2024-09-08 15:27:00 - INFO - All individual reports saved for Brian Field
+2024-09-08 15:27:00 - INFO - Successfully processed Brian Field
+2024-09-08 15:27:00 - INFO - Extracted sentence for Brian Field: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:27:00 - INFO - Processing killer: Lyda Southard
+2024-09-08 15:27:00 - INFO - Processing results for Lyda Southard
+2024-09-08 15:27:08 - INFO - Judge results obtained
+2024-09-08 15:27:08 - WARNING - Unexpected judge results format
+2024-09-08 15:27:08 - INFO - Attempting to save file: criminal_reports/Lyda_Southard_presiding_judge_report.md
+2024-09-08 15:27:08 - INFO - Successfully saved Presiding Judge report for Lyda Southard in criminal_reports/Lyda_Southard_presiding_judge_report.md
+2024-09-08 15:27:08 - INFO - Verified: File criminal_reports/Lyda_Southard_presiding_judge_report.md exists
+2024-09-08 15:27:33 - INFO - Jury results obtained
+2024-09-08 15:27:33 - WARNING - Unexpected jury results format
+2024-09-08 15:27:33 - INFO - Attempting to save file: criminal_reports/Lyda_Southard_jury_panel_report.md
+2024-09-08 15:27:33 - INFO - Successfully saved Jury Panel report for Lyda Southard in criminal_reports/Lyda_Southard_jury_panel_report.md
+2024-09-08 15:27:33 - INFO - Verified: File criminal_reports/Lyda_Southard_jury_panel_report.md exists
+2024-09-08 15:28:01 - INFO - Prosecutor results obtained
+2024-09-08 15:28:01 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:28:01 - INFO - Attempting to save file: criminal_reports/Lyda_Southard_district_attorney_report.md
+2024-09-08 15:28:01 - INFO - Successfully saved District Attorney report for Lyda Southard in criminal_reports/Lyda_Southard_district_attorney_report.md
+2024-09-08 15:28:01 - INFO - Verified: File criminal_reports/Lyda_Southard_district_attorney_report.md exists
+2024-09-08 15:28:48 - INFO - Full crew results obtained
+2024-09-08 15:28:48 - WARNING - Unexpected full crew results format
+2024-09-08 15:28:48 - INFO - Attempting to save file: criminal_reports/Lyda_Southard_defense_counsel_report.md
+2024-09-08 15:28:48 - INFO - Successfully saved Defense Counsel report for Lyda Southard in criminal_reports/Lyda_Southard_defense_counsel_report.md
+2024-09-08 15:28:48 - INFO - Verified: File criminal_reports/Lyda_Southard_defense_counsel_report.md exists
+2024-09-08 15:28:48 - INFO - All individual reports saved for Lyda Southard
+2024-09-08 15:28:48 - INFO - Successfully processed Lyda Southard
+2024-09-08 15:28:48 - INFO - Extracted sentence for Lyda Southard: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:28:48 - INFO - Processing killer: Craig Price
+2024-09-08 15:28:48 - INFO - Processing results for Craig Price
+2024-09-08 15:29:01 - INFO - Judge results obtained
+2024-09-08 15:29:01 - WARNING - Unexpected judge results format
+2024-09-08 15:29:01 - INFO - Attempting to save file: criminal_reports/Craig_Price_presiding_judge_report.md
+2024-09-08 15:29:01 - INFO - Successfully saved Presiding Judge report for Craig Price in criminal_reports/Craig_Price_presiding_judge_report.md
+2024-09-08 15:29:01 - INFO - Verified: File criminal_reports/Craig_Price_presiding_judge_report.md exists
+2024-09-08 15:29:28 - INFO - Jury results obtained
+2024-09-08 15:29:28 - WARNING - Unexpected jury results format
+2024-09-08 15:29:28 - INFO - Attempting to save file: criminal_reports/Craig_Price_jury_panel_report.md
+2024-09-08 15:29:28 - INFO - Successfully saved Jury Panel report for Craig Price in criminal_reports/Craig_Price_jury_panel_report.md
+2024-09-08 15:29:28 - INFO - Verified: File criminal_reports/Craig_Price_jury_panel_report.md exists
+2024-09-08 15:29:54 - INFO - Prosecutor results obtained
+2024-09-08 15:29:54 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:29:54 - INFO - Attempting to save file: criminal_reports/Craig_Price_district_attorney_report.md
+2024-09-08 15:29:54 - INFO - Successfully saved District Attorney report for Craig Price in criminal_reports/Craig_Price_district_attorney_report.md
+2024-09-08 15:29:54 - INFO - Verified: File criminal_reports/Craig_Price_district_attorney_report.md exists
+2024-09-08 15:30:47 - INFO - Full crew results obtained
+2024-09-08 15:30:47 - WARNING - Unexpected full crew results format
+2024-09-08 15:30:47 - INFO - Attempting to save file: criminal_reports/Craig_Price_defense_counsel_report.md
+2024-09-08 15:30:47 - INFO - Successfully saved Defense Counsel report for Craig Price in criminal_reports/Craig_Price_defense_counsel_report.md
+2024-09-08 15:30:47 - INFO - Verified: File criminal_reports/Craig_Price_defense_counsel_report.md exists
+2024-09-08 15:30:47 - INFO - All individual reports saved for Craig Price
+2024-09-08 15:30:47 - INFO - Successfully processed Craig Price
+2024-09-08 15:30:47 - INFO - Extracted sentence for Craig Price: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:30:47 - INFO - Processing killer: Aino Nykopp-Koski
+2024-09-08 15:30:47 - INFO - Processing results for Aino Nykopp-Koski
+2024-09-08 15:30:56 - INFO - Judge results obtained
+2024-09-08 15:30:56 - WARNING - Unexpected judge results format
+2024-09-08 15:30:56 - INFO - Attempting to save file: criminal_reports/Aino_Nykopp-Koski_presiding_judge_report.md
+2024-09-08 15:30:56 - INFO - Successfully saved Presiding Judge report for Aino Nykopp-Koski in criminal_reports/Aino_Nykopp-Koski_presiding_judge_report.md
+2024-09-08 15:30:56 - INFO - Verified: File criminal_reports/Aino_Nykopp-Koski_presiding_judge_report.md exists
+2024-09-08 15:31:19 - INFO - Jury results obtained
+2024-09-08 15:31:19 - WARNING - Unexpected jury results format
+2024-09-08 15:31:19 - INFO - Attempting to save file: criminal_reports/Aino_Nykopp-Koski_jury_panel_report.md
+2024-09-08 15:31:19 - INFO - Successfully saved Jury Panel report for Aino Nykopp-Koski in criminal_reports/Aino_Nykopp-Koski_jury_panel_report.md
+2024-09-08 15:31:19 - INFO - Verified: File criminal_reports/Aino_Nykopp-Koski_jury_panel_report.md exists
+2024-09-08 15:31:46 - INFO - Prosecutor results obtained
+2024-09-08 15:31:46 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:31:46 - INFO - Attempting to save file: criminal_reports/Aino_Nykopp-Koski_district_attorney_report.md
+2024-09-08 15:31:46 - INFO - Successfully saved District Attorney report for Aino Nykopp-Koski in criminal_reports/Aino_Nykopp-Koski_district_attorney_report.md
+2024-09-08 15:31:46 - INFO - Verified: File criminal_reports/Aino_Nykopp-Koski_district_attorney_report.md exists
+2024-09-08 15:32:35 - INFO - Full crew results obtained
+2024-09-08 15:32:35 - WARNING - Unexpected full crew results format
+2024-09-08 15:32:35 - INFO - Attempting to save file: criminal_reports/Aino_Nykopp-Koski_defense_counsel_report.md
+2024-09-08 15:32:35 - INFO - Successfully saved Defense Counsel report for Aino Nykopp-Koski in criminal_reports/Aino_Nykopp-Koski_defense_counsel_report.md
+2024-09-08 15:32:35 - INFO - Verified: File criminal_reports/Aino_Nykopp-Koski_defense_counsel_report.md exists
+2024-09-08 15:32:35 - INFO - All individual reports saved for Aino Nykopp-Koski
+2024-09-08 15:32:35 - INFO - Successfully processed Aino Nykopp-Koski
+2024-09-08 15:32:35 - INFO - Extracted sentence for Aino Nykopp-Koski: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:32:35 - INFO - Processing killer: Thierry Paulin
+2024-09-08 15:32:35 - INFO - Processing results for Thierry Paulin
+2024-09-08 15:32:43 - INFO - Judge results obtained
+2024-09-08 15:32:43 - WARNING - Unexpected judge results format
+2024-09-08 15:32:43 - INFO - Attempting to save file: criminal_reports/Thierry_Paulin_presiding_judge_report.md
+2024-09-08 15:32:43 - INFO - Successfully saved Presiding Judge report for Thierry Paulin in criminal_reports/Thierry_Paulin_presiding_judge_report.md
+2024-09-08 15:32:43 - INFO - Verified: File criminal_reports/Thierry_Paulin_presiding_judge_report.md exists
+2024-09-08 15:33:07 - INFO - Jury results obtained
+2024-09-08 15:33:07 - WARNING - Unexpected jury results format
+2024-09-08 15:33:07 - INFO - Attempting to save file: criminal_reports/Thierry_Paulin_jury_panel_report.md
+2024-09-08 15:33:07 - INFO - Successfully saved Jury Panel report for Thierry Paulin in criminal_reports/Thierry_Paulin_jury_panel_report.md
+2024-09-08 15:33:07 - INFO - Verified: File criminal_reports/Thierry_Paulin_jury_panel_report.md exists
+2024-09-08 15:33:34 - INFO - Prosecutor results obtained
+2024-09-08 15:33:34 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:33:34 - INFO - Attempting to save file: criminal_reports/Thierry_Paulin_district_attorney_report.md
+2024-09-08 15:33:34 - INFO - Successfully saved District Attorney report for Thierry Paulin in criminal_reports/Thierry_Paulin_district_attorney_report.md
+2024-09-08 15:33:34 - INFO - Verified: File criminal_reports/Thierry_Paulin_district_attorney_report.md exists
+2024-09-08 15:34:26 - INFO - Full crew results obtained
+2024-09-08 15:34:26 - WARNING - Unexpected full crew results format
+2024-09-08 15:34:26 - INFO - Attempting to save file: criminal_reports/Thierry_Paulin_defense_counsel_report.md
+2024-09-08 15:34:26 - INFO - Successfully saved Defense Counsel report for Thierry Paulin in criminal_reports/Thierry_Paulin_defense_counsel_report.md
+2024-09-08 15:34:26 - INFO - Verified: File criminal_reports/Thierry_Paulin_defense_counsel_report.md exists
+2024-09-08 15:34:26 - INFO - All individual reports saved for Thierry Paulin
+2024-09-08 15:34:26 - INFO - Successfully processed Thierry Paulin
+2024-09-08 15:34:26 - INFO - Extracted sentence for Thierry Paulin: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:34:26 - INFO - Processing killer: Stanisław Modzelewski
+2024-09-08 15:34:26 - INFO - Processing results for Stanisław Modzelewski
+2024-09-08 15:34:35 - INFO - Judge results obtained
+2024-09-08 15:34:35 - WARNING - Unexpected judge results format
+2024-09-08 15:34:35 - INFO - Attempting to save file: criminal_reports/Stanisław_Modzelewski_presiding_judge_report.md
+2024-09-08 15:34:35 - INFO - Successfully saved Presiding Judge report for Stanisław Modzelewski in criminal_reports/Stanisław_Modzelewski_presiding_judge_report.md
+2024-09-08 15:34:35 - INFO - Verified: File criminal_reports/Stanisław_Modzelewski_presiding_judge_report.md exists
+2024-09-08 15:35:06 - INFO - Jury results obtained
+2024-09-08 15:35:06 - WARNING - Unexpected jury results format
+2024-09-08 15:35:06 - INFO - Attempting to save file: criminal_reports/Stanisław_Modzelewski_jury_panel_report.md
+2024-09-08 15:35:06 - INFO - Successfully saved Jury Panel report for Stanisław Modzelewski in criminal_reports/Stanisław_Modzelewski_jury_panel_report.md
+2024-09-08 15:35:06 - INFO - Verified: File criminal_reports/Stanisław_Modzelewski_jury_panel_report.md exists
+2024-09-08 15:35:36 - INFO - Prosecutor results obtained
+2024-09-08 15:35:36 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:35:36 - INFO - Attempting to save file: criminal_reports/Stanisław_Modzelewski_district_attorney_report.md
+2024-09-08 15:35:36 - INFO - Successfully saved District Attorney report for Stanisław Modzelewski in criminal_reports/Stanisław_Modzelewski_district_attorney_report.md
+2024-09-08 15:35:36 - INFO - Verified: File criminal_reports/Stanisław_Modzelewski_district_attorney_report.md exists
+2024-09-08 15:36:28 - INFO - Full crew results obtained
+2024-09-08 15:36:28 - WARNING - Unexpected full crew results format
+2024-09-08 15:36:28 - INFO - Attempting to save file: criminal_reports/Stanisław_Modzelewski_defense_counsel_report.md
+2024-09-08 15:36:28 - INFO - Successfully saved Defense Counsel report for Stanisław Modzelewski in criminal_reports/Stanisław_Modzelewski_defense_counsel_report.md
+2024-09-08 15:36:28 - INFO - Verified: File criminal_reports/Stanisław_Modzelewski_defense_counsel_report.md exists
+2024-09-08 15:36:28 - INFO - All individual reports saved for Stanisław Modzelewski
+2024-09-08 15:36:28 - INFO - Successfully processed Stanisław Modzelewski
+2024-09-08 15:36:28 - INFO - Extracted sentence for Stanisław Modzelewski: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:36:28 - INFO - Processing killer: Ted Kaczynski
+2024-09-08 15:36:28 - INFO - Processing results for Ted Kaczynski
+2024-09-08 15:36:36 - INFO - Judge results obtained
+2024-09-08 15:36:36 - WARNING - Unexpected judge results format
+2024-09-08 15:36:36 - INFO - Attempting to save file: criminal_reports/Ted_Kaczynski_presiding_judge_report.md
+2024-09-08 15:36:36 - INFO - Successfully saved Presiding Judge report for Ted Kaczynski in criminal_reports/Ted_Kaczynski_presiding_judge_report.md
+2024-09-08 15:36:36 - INFO - Verified: File criminal_reports/Ted_Kaczynski_presiding_judge_report.md exists
+2024-09-08 15:37:01 - INFO - Jury results obtained
+2024-09-08 15:37:01 - WARNING - Unexpected jury results format
+2024-09-08 15:37:01 - INFO - Attempting to save file: criminal_reports/Ted_Kaczynski_jury_panel_report.md
+2024-09-08 15:37:01 - INFO - Successfully saved Jury Panel report for Ted Kaczynski in criminal_reports/Ted_Kaczynski_jury_panel_report.md
+2024-09-08 15:37:01 - INFO - Verified: File criminal_reports/Ted_Kaczynski_jury_panel_report.md exists
+2024-09-08 15:37:29 - INFO - Prosecutor results obtained
+2024-09-08 15:37:29 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:37:29 - INFO - Attempting to save file: criminal_reports/Ted_Kaczynski_district_attorney_report.md
+2024-09-08 15:37:29 - INFO - Successfully saved District Attorney report for Ted Kaczynski in criminal_reports/Ted_Kaczynski_district_attorney_report.md
+2024-09-08 15:37:29 - INFO - Verified: File criminal_reports/Ted_Kaczynski_district_attorney_report.md exists
+2024-09-08 15:38:24 - INFO - Full crew results obtained
+2024-09-08 15:38:24 - WARNING - Unexpected full crew results format
+2024-09-08 15:38:24 - INFO - Attempting to save file: criminal_reports/Ted_Kaczynski_defense_counsel_report.md
+2024-09-08 15:38:24 - INFO - Successfully saved Defense Counsel report for Ted Kaczynski in criminal_reports/Ted_Kaczynski_defense_counsel_report.md
+2024-09-08 15:38:24 - INFO - Verified: File criminal_reports/Ted_Kaczynski_defense_counsel_report.md exists
+2024-09-08 15:38:24 - INFO - All individual reports saved for Ted Kaczynski
+2024-09-08 15:38:24 - INFO - Successfully processed Ted Kaczynski
+2024-09-08 15:38:24 - INFO - Extracted sentence for Ted Kaczynski: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:38:24 - INFO - Processing killer: Özkan Zengin
+2024-09-08 15:38:24 - INFO - Processing results for Özkan Zengin
+2024-09-08 15:38:33 - INFO - Judge results obtained
+2024-09-08 15:38:33 - WARNING - Unexpected judge results format
+2024-09-08 15:38:33 - INFO - Attempting to save file: criminal_reports/Özkan_Zengin_presiding_judge_report.md
+2024-09-08 15:38:33 - INFO - Successfully saved Presiding Judge report for Özkan Zengin in criminal_reports/Özkan_Zengin_presiding_judge_report.md
+2024-09-08 15:38:33 - INFO - Verified: File criminal_reports/Özkan_Zengin_presiding_judge_report.md exists
+2024-09-08 15:38:55 - INFO - Jury results obtained
+2024-09-08 15:38:55 - WARNING - Unexpected jury results format
+2024-09-08 15:38:55 - INFO - Attempting to save file: criminal_reports/Özkan_Zengin_jury_panel_report.md
+2024-09-08 15:38:55 - INFO - Successfully saved Jury Panel report for Özkan Zengin in criminal_reports/Özkan_Zengin_jury_panel_report.md
+2024-09-08 15:38:55 - INFO - Verified: File criminal_reports/Özkan_Zengin_jury_panel_report.md exists
+2024-09-08 15:39:25 - INFO - Prosecutor results obtained
+2024-09-08 15:39:25 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:39:25 - INFO - Attempting to save file: criminal_reports/Özkan_Zengin_district_attorney_report.md
+2024-09-08 15:39:25 - INFO - Successfully saved District Attorney report for Özkan Zengin in criminal_reports/Özkan_Zengin_district_attorney_report.md
+2024-09-08 15:39:25 - INFO - Verified: File criminal_reports/Özkan_Zengin_district_attorney_report.md exists
+2024-09-08 15:40:14 - INFO - Full crew results obtained
+2024-09-08 15:40:14 - WARNING - Unexpected full crew results format
+2024-09-08 15:40:14 - INFO - Attempting to save file: criminal_reports/Özkan_Zengin_defense_counsel_report.md
+2024-09-08 15:40:14 - INFO - Successfully saved Defense Counsel report for Özkan Zengin in criminal_reports/Özkan_Zengin_defense_counsel_report.md
+2024-09-08 15:40:14 - INFO - Verified: File criminal_reports/Özkan_Zengin_defense_counsel_report.md exists
+2024-09-08 15:40:14 - INFO - All individual reports saved for Özkan Zengin
+2024-09-08 15:40:14 - INFO - Successfully processed Özkan Zengin
+2024-09-08 15:40:14 - INFO - Extracted sentence for Özkan Zengin: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:40:14 - INFO - Processing killer: Slamet Tohari
+2024-09-08 15:40:14 - INFO - Processing results for Slamet Tohari
+2024-09-08 15:40:22 - INFO - Judge results obtained
+2024-09-08 15:40:22 - WARNING - Unexpected judge results format
+2024-09-08 15:40:22 - INFO - Attempting to save file: criminal_reports/Slamet_Tohari_presiding_judge_report.md
+2024-09-08 15:40:22 - INFO - Successfully saved Presiding Judge report for Slamet Tohari in criminal_reports/Slamet_Tohari_presiding_judge_report.md
+2024-09-08 15:40:22 - INFO - Verified: File criminal_reports/Slamet_Tohari_presiding_judge_report.md exists
+2024-09-08 15:40:47 - INFO - Jury results obtained
+2024-09-08 15:40:47 - WARNING - Unexpected jury results format
+2024-09-08 15:40:47 - INFO - Attempting to save file: criminal_reports/Slamet_Tohari_jury_panel_report.md
+2024-09-08 15:40:47 - INFO - Successfully saved Jury Panel report for Slamet Tohari in criminal_reports/Slamet_Tohari_jury_panel_report.md
+2024-09-08 15:40:47 - INFO - Verified: File criminal_reports/Slamet_Tohari_jury_panel_report.md exists
+2024-09-08 15:41:15 - INFO - Prosecutor results obtained
+2024-09-08 15:41:15 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:41:15 - INFO - Attempting to save file: criminal_reports/Slamet_Tohari_district_attorney_report.md
+2024-09-08 15:41:15 - INFO - Successfully saved District Attorney report for Slamet Tohari in criminal_reports/Slamet_Tohari_district_attorney_report.md
+2024-09-08 15:41:15 - INFO - Verified: File criminal_reports/Slamet_Tohari_district_attorney_report.md exists
+2024-09-08 15:42:05 - INFO - Full crew results obtained
+2024-09-08 15:42:05 - WARNING - Unexpected full crew results format
+2024-09-08 15:42:05 - INFO - Attempting to save file: criminal_reports/Slamet_Tohari_defense_counsel_report.md
+2024-09-08 15:42:05 - INFO - Successfully saved Defense Counsel report for Slamet Tohari in criminal_reports/Slamet_Tohari_defense_counsel_report.md
+2024-09-08 15:42:05 - INFO - Verified: File criminal_reports/Slamet_Tohari_defense_counsel_report.md exists
+2024-09-08 15:42:05 - INFO - All individual reports saved for Slamet Tohari
+2024-09-08 15:42:05 - INFO - Successfully processed Slamet Tohari
+2024-09-08 15:42:05 - INFO - Extracted sentence for Slamet Tohari: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:42:05 - INFO - Processing killer: Steven Grieveson
+2024-09-08 15:42:05 - INFO - Processing results for Steven Grieveson
+2024-09-08 15:42:15 - INFO - Judge results obtained
+2024-09-08 15:42:15 - WARNING - Unexpected judge results format
+2024-09-08 15:42:15 - INFO - Attempting to save file: criminal_reports/Steven_Grieveson_presiding_judge_report.md
+2024-09-08 15:42:15 - INFO - Successfully saved Presiding Judge report for Steven Grieveson in criminal_reports/Steven_Grieveson_presiding_judge_report.md
+2024-09-08 15:42:15 - INFO - Verified: File criminal_reports/Steven_Grieveson_presiding_judge_report.md exists
+2024-09-08 15:42:40 - INFO - Jury results obtained
+2024-09-08 15:42:40 - WARNING - Unexpected jury results format
+2024-09-08 15:42:40 - INFO - Attempting to save file: criminal_reports/Steven_Grieveson_jury_panel_report.md
+2024-09-08 15:42:40 - INFO - Successfully saved Jury Panel report for Steven Grieveson in criminal_reports/Steven_Grieveson_jury_panel_report.md
+2024-09-08 15:42:40 - INFO - Verified: File criminal_reports/Steven_Grieveson_jury_panel_report.md exists
+2024-09-08 15:43:04 - INFO - Prosecutor results obtained
+2024-09-08 15:43:04 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:43:04 - INFO - Attempting to save file: criminal_reports/Steven_Grieveson_district_attorney_report.md
+2024-09-08 15:43:04 - INFO - Successfully saved District Attorney report for Steven Grieveson in criminal_reports/Steven_Grieveson_district_attorney_report.md
+2024-09-08 15:43:04 - INFO - Verified: File criminal_reports/Steven_Grieveson_district_attorney_report.md exists
+2024-09-08 15:43:51 - INFO - Full crew results obtained
+2024-09-08 15:43:51 - WARNING - Unexpected full crew results format
+2024-09-08 15:43:51 - INFO - Attempting to save file: criminal_reports/Steven_Grieveson_defense_counsel_report.md
+2024-09-08 15:43:51 - INFO - Successfully saved Defense Counsel report for Steven Grieveson in criminal_reports/Steven_Grieveson_defense_counsel_report.md
+2024-09-08 15:43:51 - INFO - Verified: File criminal_reports/Steven_Grieveson_defense_counsel_report.md exists
+2024-09-08 15:43:51 - INFO - All individual reports saved for Steven Grieveson
+2024-09-08 15:43:51 - INFO - Successfully processed Steven Grieveson
+2024-09-08 15:43:51 - INFO - Extracted sentence for Steven Grieveson: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:43:51 - INFO - Processing killer: Siswanto
+2024-09-08 15:43:51 - INFO - Processing results for Siswanto
+2024-09-08 15:43:59 - INFO - Judge results obtained
+2024-09-08 15:43:59 - WARNING - Unexpected judge results format
+2024-09-08 15:43:59 - INFO - Attempting to save file: criminal_reports/Siswanto_presiding_judge_report.md
+2024-09-08 15:43:59 - INFO - Successfully saved Presiding Judge report for Siswanto in criminal_reports/Siswanto_presiding_judge_report.md
+2024-09-08 15:43:59 - INFO - Verified: File criminal_reports/Siswanto_presiding_judge_report.md exists
+2024-09-08 15:44:25 - INFO - Jury results obtained
+2024-09-08 15:44:25 - WARNING - Unexpected jury results format
+2024-09-08 15:44:25 - INFO - Attempting to save file: criminal_reports/Siswanto_jury_panel_report.md
+2024-09-08 15:44:25 - INFO - Successfully saved Jury Panel report for Siswanto in criminal_reports/Siswanto_jury_panel_report.md
+2024-09-08 15:44:25 - INFO - Verified: File criminal_reports/Siswanto_jury_panel_report.md exists
+2024-09-08 15:44:53 - INFO - Prosecutor results obtained
+2024-09-08 15:44:53 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:44:53 - INFO - Attempting to save file: criminal_reports/Siswanto_district_attorney_report.md
+2024-09-08 15:44:53 - INFO - Successfully saved District Attorney report for Siswanto in criminal_reports/Siswanto_district_attorney_report.md
+2024-09-08 15:44:53 - INFO - Verified: File criminal_reports/Siswanto_district_attorney_report.md exists
+2024-09-08 15:45:43 - INFO - Full crew results obtained
+2024-09-08 15:45:43 - WARNING - Unexpected full crew results format
+2024-09-08 15:45:43 - INFO - Attempting to save file: criminal_reports/Siswanto_defense_counsel_report.md
+2024-09-08 15:45:43 - INFO - Successfully saved Defense Counsel report for Siswanto in criminal_reports/Siswanto_defense_counsel_report.md
+2024-09-08 15:45:43 - INFO - Verified: File criminal_reports/Siswanto_defense_counsel_report.md exists
+2024-09-08 15:45:43 - INFO - All individual reports saved for Siswanto
+2024-09-08 15:45:43 - INFO - Successfully processed Siswanto
+2024-09-08 15:45:43 - INFO - Extracted sentence for Siswanto: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:45:43 - INFO - Processing killer: Adolfo Constanzo and Sara Aldrete
+2024-09-08 15:45:43 - INFO - Processing results for Adolfo Constanzo and Sara Aldrete
+2024-09-08 15:45:51 - INFO - Judge results obtained
+2024-09-08 15:45:51 - WARNING - Unexpected judge results format
+2024-09-08 15:45:51 - INFO - Attempting to save file: criminal_reports/Adolfo_Constanzo_and_Sara_Aldrete_presiding_judge_report.md
+2024-09-08 15:45:51 - INFO - Successfully saved Presiding Judge report for Adolfo Constanzo and Sara Aldrete in criminal_reports/Adolfo_Constanzo_and_Sara_Aldrete_presiding_judge_report.md
+2024-09-08 15:45:51 - INFO - Verified: File criminal_reports/Adolfo_Constanzo_and_Sara_Aldrete_presiding_judge_report.md exists
+2024-09-08 15:46:18 - INFO - Jury results obtained
+2024-09-08 15:46:18 - WARNING - Unexpected jury results format
+2024-09-08 15:46:18 - INFO - Attempting to save file: criminal_reports/Adolfo_Constanzo_and_Sara_Aldrete_jury_panel_report.md
+2024-09-08 15:46:18 - INFO - Successfully saved Jury Panel report for Adolfo Constanzo and Sara Aldrete in criminal_reports/Adolfo_Constanzo_and_Sara_Aldrete_jury_panel_report.md
+2024-09-08 15:46:18 - INFO - Verified: File criminal_reports/Adolfo_Constanzo_and_Sara_Aldrete_jury_panel_report.md exists
+2024-09-08 15:46:50 - INFO - Prosecutor results obtained
+2024-09-08 15:46:50 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:46:50 - INFO - Attempting to save file: criminal_reports/Adolfo_Constanzo_and_Sara_Aldrete_district_attorney_report.md
+2024-09-08 15:46:50 - INFO - Successfully saved District Attorney report for Adolfo Constanzo and Sara Aldrete in criminal_reports/Adolfo_Constanzo_and_Sara_Aldrete_district_attorney_report.md
+2024-09-08 15:46:50 - INFO - Verified: File criminal_reports/Adolfo_Constanzo_and_Sara_Aldrete_district_attorney_report.md exists
+2024-09-08 15:47:41 - INFO - Full crew results obtained
+2024-09-08 15:47:41 - WARNING - Unexpected full crew results format
+2024-09-08 15:47:41 - INFO - Attempting to save file: criminal_reports/Adolfo_Constanzo_and_Sara_Aldrete_defense_counsel_report.md
+2024-09-08 15:47:41 - INFO - Successfully saved Defense Counsel report for Adolfo Constanzo and Sara Aldrete in criminal_reports/Adolfo_Constanzo_and_Sara_Aldrete_defense_counsel_report.md
+2024-09-08 15:47:41 - INFO - Verified: File criminal_reports/Adolfo_Constanzo_and_Sara_Aldrete_defense_counsel_report.md exists
+2024-09-08 15:47:41 - INFO - All individual reports saved for Adolfo Constanzo and Sara Aldrete
+2024-09-08 15:47:41 - INFO - Successfully processed Adolfo Constanzo and Sara Aldrete
+2024-09-08 15:47:41 - INFO - Extracted sentence for Adolfo Constanzo and Sara Aldrete: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:47:41 - INFO - Processing killer: Stephen Port
+2024-09-08 15:47:41 - INFO - Processing results for Stephen Port
+2024-09-08 15:47:49 - INFO - Judge results obtained
+2024-09-08 15:47:49 - WARNING - Unexpected judge results format
+2024-09-08 15:47:49 - INFO - Attempting to save file: criminal_reports/Stephen_Port_presiding_judge_report.md
+2024-09-08 15:47:49 - INFO - Successfully saved Presiding Judge report for Stephen Port in criminal_reports/Stephen_Port_presiding_judge_report.md
+2024-09-08 15:47:49 - INFO - Verified: File criminal_reports/Stephen_Port_presiding_judge_report.md exists
+2024-09-08 15:48:11 - INFO - Jury results obtained
+2024-09-08 15:48:11 - WARNING - Unexpected jury results format
+2024-09-08 15:48:11 - INFO - Attempting to save file: criminal_reports/Stephen_Port_jury_panel_report.md
+2024-09-08 15:48:11 - INFO - Successfully saved Jury Panel report for Stephen Port in criminal_reports/Stephen_Port_jury_panel_report.md
+2024-09-08 15:48:11 - INFO - Verified: File criminal_reports/Stephen_Port_jury_panel_report.md exists
+2024-09-08 15:48:37 - INFO - Prosecutor results obtained
+2024-09-08 15:48:37 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:48:37 - INFO - Attempting to save file: criminal_reports/Stephen_Port_district_attorney_report.md
+2024-09-08 15:48:37 - INFO - Successfully saved District Attorney report for Stephen Port in criminal_reports/Stephen_Port_district_attorney_report.md
+2024-09-08 15:48:37 - INFO - Verified: File criminal_reports/Stephen_Port_district_attorney_report.md exists
+2024-09-08 15:49:25 - INFO - Full crew results obtained
+2024-09-08 15:49:25 - WARNING - Unexpected full crew results format
+2024-09-08 15:49:25 - INFO - Attempting to save file: criminal_reports/Stephen_Port_defense_counsel_report.md
+2024-09-08 15:49:25 - INFO - Successfully saved Defense Counsel report for Stephen Port in criminal_reports/Stephen_Port_defense_counsel_report.md
+2024-09-08 15:49:25 - INFO - Verified: File criminal_reports/Stephen_Port_defense_counsel_report.md exists
+2024-09-08 15:49:25 - INFO - All individual reports saved for Stephen Port
+2024-09-08 15:49:25 - INFO - Successfully processed Stephen Port
+2024-09-08 15:49:25 - INFO - Extracted sentence for Stephen Port: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:49:25 - INFO - Processing killer: Eddie Leonski
+2024-09-08 15:49:25 - INFO - Processing results for Eddie Leonski
+2024-09-08 15:49:32 - INFO - Judge results obtained
+2024-09-08 15:49:32 - WARNING - Unexpected judge results format
+2024-09-08 15:49:32 - INFO - Attempting to save file: criminal_reports/Eddie_Leonski_presiding_judge_report.md
+2024-09-08 15:49:32 - INFO - Successfully saved Presiding Judge report for Eddie Leonski in criminal_reports/Eddie_Leonski_presiding_judge_report.md
+2024-09-08 15:49:32 - INFO - Verified: File criminal_reports/Eddie_Leonski_presiding_judge_report.md exists
+2024-09-08 15:49:54 - INFO - Jury results obtained
+2024-09-08 15:49:54 - WARNING - Unexpected jury results format
+2024-09-08 15:49:54 - INFO - Attempting to save file: criminal_reports/Eddie_Leonski_jury_panel_report.md
+2024-09-08 15:49:54 - INFO - Successfully saved Jury Panel report for Eddie Leonski in criminal_reports/Eddie_Leonski_jury_panel_report.md
+2024-09-08 15:49:54 - INFO - Verified: File criminal_reports/Eddie_Leonski_jury_panel_report.md exists
+2024-09-08 15:50:24 - INFO - Prosecutor results obtained
+2024-09-08 15:50:24 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:50:24 - INFO - Attempting to save file: criminal_reports/Eddie_Leonski_district_attorney_report.md
+2024-09-08 15:50:24 - INFO - Successfully saved District Attorney report for Eddie Leonski in criminal_reports/Eddie_Leonski_district_attorney_report.md
+2024-09-08 15:50:24 - INFO - Verified: File criminal_reports/Eddie_Leonski_district_attorney_report.md exists
+2024-09-08 15:51:14 - INFO - Full crew results obtained
+2024-09-08 15:51:14 - WARNING - Unexpected full crew results format
+2024-09-08 15:51:14 - INFO - Attempting to save file: criminal_reports/Eddie_Leonski_defense_counsel_report.md
+2024-09-08 15:51:14 - INFO - Successfully saved Defense Counsel report for Eddie Leonski in criminal_reports/Eddie_Leonski_defense_counsel_report.md
+2024-09-08 15:51:14 - INFO - Verified: File criminal_reports/Eddie_Leonski_defense_counsel_report.md exists
+2024-09-08 15:51:14 - INFO - All individual reports saved for Eddie Leonski
+2024-09-08 15:51:14 - INFO - Successfully processed Eddie Leonski
+2024-09-08 15:51:14 - INFO - Extracted sentence for Eddie Leonski: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:51:14 - INFO - Processing killer: Yevgeny Nagorny and Sergei Stavitsky
+2024-09-08 15:51:14 - INFO - Processing results for Yevgeny Nagorny and Sergei Stavitsky
+2024-09-08 15:51:23 - INFO - Judge results obtained
+2024-09-08 15:51:23 - WARNING - Unexpected judge results format
+2024-09-08 15:51:23 - INFO - Attempting to save file: criminal_reports/Yevgeny_Nagorny_and_Sergei_Stavitsky_presiding_judge_report.md
+2024-09-08 15:51:23 - INFO - Successfully saved Presiding Judge report for Yevgeny Nagorny and Sergei Stavitsky in criminal_reports/Yevgeny_Nagorny_and_Sergei_Stavitsky_presiding_judge_report.md
+2024-09-08 15:51:23 - INFO - Verified: File criminal_reports/Yevgeny_Nagorny_and_Sergei_Stavitsky_presiding_judge_report.md exists
+2024-09-08 15:51:45 - INFO - Jury results obtained
+2024-09-08 15:51:45 - WARNING - Unexpected jury results format
+2024-09-08 15:51:45 - INFO - Attempting to save file: criminal_reports/Yevgeny_Nagorny_and_Sergei_Stavitsky_jury_panel_report.md
+2024-09-08 15:51:45 - INFO - Successfully saved Jury Panel report for Yevgeny Nagorny and Sergei Stavitsky in criminal_reports/Yevgeny_Nagorny_and_Sergei_Stavitsky_jury_panel_report.md
+2024-09-08 15:51:45 - INFO - Verified: File criminal_reports/Yevgeny_Nagorny_and_Sergei_Stavitsky_jury_panel_report.md exists
+2024-09-08 15:52:16 - INFO - Prosecutor results obtained
+2024-09-08 15:52:16 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:52:16 - INFO - Attempting to save file: criminal_reports/Yevgeny_Nagorny_and_Sergei_Stavitsky_district_attorney_report.md
+2024-09-08 15:52:16 - INFO - Successfully saved District Attorney report for Yevgeny Nagorny and Sergei Stavitsky in criminal_reports/Yevgeny_Nagorny_and_Sergei_Stavitsky_district_attorney_report.md
+2024-09-08 15:52:16 - INFO - Verified: File criminal_reports/Yevgeny_Nagorny_and_Sergei_Stavitsky_district_attorney_report.md exists
+2024-09-08 15:53:08 - INFO - Full crew results obtained
+2024-09-08 15:53:08 - WARNING - Unexpected full crew results format
+2024-09-08 15:53:08 - INFO - Attempting to save file: criminal_reports/Yevgeny_Nagorny_and_Sergei_Stavitsky_defense_counsel_report.md
+2024-09-08 15:53:08 - INFO - Successfully saved Defense Counsel report for Yevgeny Nagorny and Sergei Stavitsky in criminal_reports/Yevgeny_Nagorny_and_Sergei_Stavitsky_defense_counsel_report.md
+2024-09-08 15:53:08 - INFO - Verified: File criminal_reports/Yevgeny_Nagorny_and_Sergei_Stavitsky_defense_counsel_report.md exists
+2024-09-08 15:53:08 - INFO - All individual reports saved for Yevgeny Nagorny and Sergei Stavitsky
+2024-09-08 15:53:08 - INFO - Successfully processed Yevgeny Nagorny and Sergei Stavitsky
+2024-09-08 15:53:08 - INFO - Extracted sentence for Yevgeny Nagorny and Sergei Stavitsky: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:53:08 - INFO - Processing killer: Gordon Northcott
+2024-09-08 15:53:08 - INFO - Processing results for Gordon Northcott
+2024-09-08 15:53:16 - INFO - Judge results obtained
+2024-09-08 15:53:16 - WARNING - Unexpected judge results format
+2024-09-08 15:53:16 - INFO - Attempting to save file: criminal_reports/Gordon_Northcott_presiding_judge_report.md
+2024-09-08 15:53:16 - INFO - Successfully saved Presiding Judge report for Gordon Northcott in criminal_reports/Gordon_Northcott_presiding_judge_report.md
+2024-09-08 15:53:16 - INFO - Verified: File criminal_reports/Gordon_Northcott_presiding_judge_report.md exists
+2024-09-08 15:53:37 - INFO - Jury results obtained
+2024-09-08 15:53:37 - WARNING - Unexpected jury results format
+2024-09-08 15:53:37 - INFO - Attempting to save file: criminal_reports/Gordon_Northcott_jury_panel_report.md
+2024-09-08 15:53:37 - INFO - Successfully saved Jury Panel report for Gordon Northcott in criminal_reports/Gordon_Northcott_jury_panel_report.md
+2024-09-08 15:53:37 - INFO - Verified: File criminal_reports/Gordon_Northcott_jury_panel_report.md exists
+2024-09-08 15:54:09 - INFO - Prosecutor results obtained
+2024-09-08 15:54:09 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:54:09 - INFO - Attempting to save file: criminal_reports/Gordon_Northcott_district_attorney_report.md
+2024-09-08 15:54:09 - INFO - Successfully saved District Attorney report for Gordon Northcott in criminal_reports/Gordon_Northcott_district_attorney_report.md
+2024-09-08 15:54:09 - INFO - Verified: File criminal_reports/Gordon_Northcott_district_attorney_report.md exists
+2024-09-08 15:54:38 - ERROR - Error in process_killer for Gordon Northcott: object of type 'NoneType' has no len()
+2024-09-08 15:54:38 - ERROR - Traceback: Traceback (most recent call last):
+  File "/l/users/sarim.hashmi/mixture_of_expert/improved_version.py", line 254, in process_killer
+    results = crew.kickoff()
+              ^^^^^^^^^^^^^^
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/crewai/crew.py", line 252, in kickoff
+    result = self._run_sequential_process()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/crewai/crew.py", line 293, in _run_sequential_process
+    output = task.execute(context=task_output)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/crewai/task.py", line 173, in execute
+    result = self._execute(
+             ^^^^^^^^^^^^^^
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/crewai/task.py", line 182, in _execute
+    result = agent.execute_task(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/crewai/agent.py", line 221, in execute_task
+    result = self.agent_executor.invoke(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/langchain/chains/base.py", line 163, in invoke
+    raise e
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/langchain/chains/base.py", line 153, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/crewai/agents/executor.py", line 124, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/langchain/agents/agent.py", line 1138, in _take_next_step
+    [
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/crewai/agents/executor.py", line 186, in _iter_next_step
+    output = self.agent.plan(
+             ^^^^^^^^^^^^^^^^
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/langchain/agents/agent.py", line 397, in plan
+    for chunk in self.runnable.stream(inputs, config={"callbacks": callbacks}):
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 2875, in stream
+    yield from self.transform(iter([input]), config, **kwargs)
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 2862, in transform
+    yield from self._transform_stream_with_config(
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 1881, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)  # type: ignore
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 2826, in _transform
+    for output in final_pipeline:
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 1282, in transform
+    for ichunk in input:
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 4736, in transform
+    yield from self.bound.transform(
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/langchain_core/runnables/base.py", line 1300, in transform
+    yield from self.stream(final, config, **kwargs)
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 249, in stream
+    raise e
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/langchain_core/language_models/chat_models.py", line 229, in stream
+    for chunk in self._stream(messages, stop=stop, **kwargs):
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/langchain_groq/chat_models.py", line 316, in _stream
+    if len(chunk["choices"]) == 0:
+       ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+
+2024-09-08 15:54:38 - WARNING - Error occurred while processing Gordon Northcott: Error processing Gordon Northcott: object of type 'NoneType' has no len()
+2024-09-08 15:54:38 - INFO - Processing killer: Denis Pischikov
+2024-09-08 15:54:38 - INFO - Processing results for Denis Pischikov
+2024-09-08 15:54:45 - INFO - Judge results obtained
+2024-09-08 15:54:45 - WARNING - Unexpected judge results format
+2024-09-08 15:54:45 - INFO - Attempting to save file: criminal_reports/Denis_Pischikov_presiding_judge_report.md
+2024-09-08 15:54:45 - INFO - Successfully saved Presiding Judge report for Denis Pischikov in criminal_reports/Denis_Pischikov_presiding_judge_report.md
+2024-09-08 15:54:45 - INFO - Verified: File criminal_reports/Denis_Pischikov_presiding_judge_report.md exists
+2024-09-08 15:55:06 - INFO - Jury results obtained
+2024-09-08 15:55:06 - WARNING - Unexpected jury results format
+2024-09-08 15:55:06 - INFO - Attempting to save file: criminal_reports/Denis_Pischikov_jury_panel_report.md
+2024-09-08 15:55:06 - INFO - Successfully saved Jury Panel report for Denis Pischikov in criminal_reports/Denis_Pischikov_jury_panel_report.md
+2024-09-08 15:55:06 - INFO - Verified: File criminal_reports/Denis_Pischikov_jury_panel_report.md exists
+2024-09-08 15:55:33 - INFO - Prosecutor results obtained
+2024-09-08 15:55:33 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:55:33 - INFO - Attempting to save file: criminal_reports/Denis_Pischikov_district_attorney_report.md
+2024-09-08 15:55:33 - INFO - Successfully saved District Attorney report for Denis Pischikov in criminal_reports/Denis_Pischikov_district_attorney_report.md
+2024-09-08 15:55:33 - INFO - Verified: File criminal_reports/Denis_Pischikov_district_attorney_report.md exists
+2024-09-08 15:56:21 - INFO - Full crew results obtained
+2024-09-08 15:56:21 - WARNING - Unexpected full crew results format
+2024-09-08 15:56:21 - INFO - Attempting to save file: criminal_reports/Denis_Pischikov_defense_counsel_report.md
+2024-09-08 15:56:21 - INFO - Successfully saved Defense Counsel report for Denis Pischikov in criminal_reports/Denis_Pischikov_defense_counsel_report.md
+2024-09-08 15:56:21 - INFO - Verified: File criminal_reports/Denis_Pischikov_defense_counsel_report.md exists
+2024-09-08 15:56:21 - INFO - All individual reports saved for Denis Pischikov
+2024-09-08 15:56:21 - INFO - Successfully processed Denis Pischikov
+2024-09-08 15:56:21 - INFO - Extracted sentence for Denis Pischikov: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:56:21 - INFO - Processing killer: Louis van Schoor
+2024-09-08 15:56:21 - INFO - Processing results for Louis van Schoor
+2024-09-08 15:56:29 - INFO - Judge results obtained
+2024-09-08 15:56:29 - WARNING - Unexpected judge results format
+2024-09-08 15:56:29 - INFO - Attempting to save file: criminal_reports/Louis_van_Schoor_presiding_judge_report.md
+2024-09-08 15:56:29 - INFO - Successfully saved Presiding Judge report for Louis van Schoor in criminal_reports/Louis_van_Schoor_presiding_judge_report.md
+2024-09-08 15:56:29 - INFO - Verified: File criminal_reports/Louis_van_Schoor_presiding_judge_report.md exists
+2024-09-08 15:56:50 - INFO - Jury results obtained
+2024-09-08 15:56:50 - WARNING - Unexpected jury results format
+2024-09-08 15:56:50 - INFO - Attempting to save file: criminal_reports/Louis_van_Schoor_jury_panel_report.md
+2024-09-08 15:56:50 - INFO - Successfully saved Jury Panel report for Louis van Schoor in criminal_reports/Louis_van_Schoor_jury_panel_report.md
+2024-09-08 15:56:50 - INFO - Verified: File criminal_reports/Louis_van_Schoor_jury_panel_report.md exists
+2024-09-08 15:57:20 - INFO - Prosecutor results obtained
+2024-09-08 15:57:20 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:57:20 - INFO - Attempting to save file: criminal_reports/Louis_van_Schoor_district_attorney_report.md
+2024-09-08 15:57:20 - INFO - Successfully saved District Attorney report for Louis van Schoor in criminal_reports/Louis_van_Schoor_district_attorney_report.md
+2024-09-08 15:57:20 - INFO - Verified: File criminal_reports/Louis_van_Schoor_district_attorney_report.md exists
+2024-09-08 15:58:09 - INFO - Full crew results obtained
+2024-09-08 15:58:09 - WARNING - Unexpected full crew results format
+2024-09-08 15:58:09 - INFO - Attempting to save file: criminal_reports/Louis_van_Schoor_defense_counsel_report.md
+2024-09-08 15:58:09 - INFO - Successfully saved Defense Counsel report for Louis van Schoor in criminal_reports/Louis_van_Schoor_defense_counsel_report.md
+2024-09-08 15:58:09 - INFO - Verified: File criminal_reports/Louis_van_Schoor_defense_counsel_report.md exists
+2024-09-08 15:58:09 - INFO - All individual reports saved for Louis van Schoor
+2024-09-08 15:58:09 - INFO - Successfully processed Louis van Schoor
+2024-09-08 15:58:09 - INFO - Extracted sentence for Louis van Schoor: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:58:09 - INFO - Processing killer: Bai Baoshan
+2024-09-08 15:58:09 - INFO - Processing results for Bai Baoshan
+2024-09-08 15:58:18 - INFO - Judge results obtained
+2024-09-08 15:58:18 - WARNING - Unexpected judge results format
+2024-09-08 15:58:18 - INFO - Attempting to save file: criminal_reports/Bai_Baoshan_presiding_judge_report.md
+2024-09-08 15:58:18 - INFO - Successfully saved Presiding Judge report for Bai Baoshan in criminal_reports/Bai_Baoshan_presiding_judge_report.md
+2024-09-08 15:58:18 - INFO - Verified: File criminal_reports/Bai_Baoshan_presiding_judge_report.md exists
+2024-09-08 15:58:40 - INFO - Jury results obtained
+2024-09-08 15:58:40 - WARNING - Unexpected jury results format
+2024-09-08 15:58:40 - INFO - Attempting to save file: criminal_reports/Bai_Baoshan_jury_panel_report.md
+2024-09-08 15:58:40 - INFO - Successfully saved Jury Panel report for Bai Baoshan in criminal_reports/Bai_Baoshan_jury_panel_report.md
+2024-09-08 15:58:40 - INFO - Verified: File criminal_reports/Bai_Baoshan_jury_panel_report.md exists
+2024-09-08 15:59:09 - INFO - Prosecutor results obtained
+2024-09-08 15:59:09 - WARNING - Unexpected prosecutor results format
+2024-09-08 15:59:09 - INFO - Attempting to save file: criminal_reports/Bai_Baoshan_district_attorney_report.md
+2024-09-08 15:59:09 - INFO - Successfully saved District Attorney report for Bai Baoshan in criminal_reports/Bai_Baoshan_district_attorney_report.md
+2024-09-08 15:59:09 - INFO - Verified: File criminal_reports/Bai_Baoshan_district_attorney_report.md exists
+2024-09-08 15:59:58 - INFO - Full crew results obtained
+2024-09-08 15:59:58 - WARNING - Unexpected full crew results format
+2024-09-08 15:59:58 - INFO - Attempting to save file: criminal_reports/Bai_Baoshan_defense_counsel_report.md
+2024-09-08 15:59:58 - INFO - Successfully saved Defense Counsel report for Bai Baoshan in criminal_reports/Bai_Baoshan_defense_counsel_report.md
+2024-09-08 15:59:58 - INFO - Verified: File criminal_reports/Bai_Baoshan_defense_counsel_report.md exists
+2024-09-08 15:59:58 - INFO - All individual reports saved for Bai Baoshan
+2024-09-08 15:59:58 - INFO - Successfully processed Bai Baoshan
+2024-09-08 15:59:58 - INFO - Extracted sentence for Bai Baoshan: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 15:59:59 - INFO - Script execution completed

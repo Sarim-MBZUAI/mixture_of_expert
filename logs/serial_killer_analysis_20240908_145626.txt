@@ -1,0 +1,8 @@
+2024-09-08 14:56:26 - INFO - Script execution started
+2024-09-08 14:56:26 - INFO - Loaded CSV file with 811 entries
+2024-09-08 14:56:26 - INFO - Selected killer: Keith Hunter Jesperson
+2024-09-08 14:56:26 - INFO - Processing killer: Keith Hunter Jesperson
+2024-09-08 14:56:35 - INFO - Combined report saved for Keith Hunter Jesperson in criminal_reports/Keith_Hunter_Jesperson_combined_report.md
+2024-09-08 14:56:35 - INFO - Successfully processed Keith Hunter Jesperson
+2024-09-08 14:56:35 - INFO - Extracted sentence for Keith Hunter Jesperson: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-08 14:56:35 - INFO - Script execution completed

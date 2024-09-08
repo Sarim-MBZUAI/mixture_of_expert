@@ -16,12 +16,11 @@ import numpy as np
 import logging
 from datetime import datetime
 import os
+
 random.seed(12)
 np.random.seed(12)
 if not os.path.exists('logs'):
     os.makedirs('logs')
-
-# Generate a timestamp for the log file name
 
 class Logger:
     def __init__(self, log_file):
@@ -62,26 +61,16 @@ logger = Logger(log_file_name)
 
 # Test logging
 logger.info("Script execution started")
-logger.debug("This is a debug message")
-logger.warning("This is a warning message")
-logger.error("This is an error message")
-
-# Test logging
-logger.info("Script execution started")
-
-# Test logging
 
 # Load the CSV file
 df = pd.read_csv('./data/serial_killers_data.csv')
 logger.info(f"Loaded CSV file with {len(df)} entries")
 
 # Randomly select 1 serial killer
-selected_killers = df.sample(n=15)
+selected_killers = df.sample(n=20)
 logger.info(f"Selected killer: {selected_killers['Name'].values[0]}")
 os.environ["GROQ_API_KEY"] = get_groq_api_key()
 llm = ChatGroq(temperature=0, model_name="llama3-70b-8192")
-
-
 
 def safe_int(value):
     try:
@@ -89,24 +78,24 @@ def safe_int(value):
     except (ValueError, TypeError):
         return 'Unknown'
 
-def save_reports(killer_name, report_content):
+def save_individual_results(killer_name, role, content):
     directory = "criminal_reports"
     if not os.path.exists(directory):
         os.makedirs(directory)
     
-    filename = f"{directory}/{killer_name.replace(' ', '_')}_report.md"
+    filename = f"{directory}/{killer_name.replace(' ', '_')}_{role.lower().replace(' ', '_')}_report.md"
     
     with open(filename, "w", encoding='utf-8') as f:
-        f.write(f"# Report for {killer_name}\n\n")
-        f.write(report_content)
+        f.write(f"# {role} Report for {killer_name}\n\n")
+        f.write(content)
     
-    print(f"Report saved for {killer_name} in {filename}")
+    logger.info(f"{role} report saved for {killer_name} in {filename}")
 
-Judge = Agent(
-    role="Senior Judge at Supreme Court",
-    goal="Ensure fair trials and make impartial decisions based on law and evidence.",
-    backstory="Experienced jurist known for wisdom and adherence to legal principles. Has presided over landmark cases shaping national law.",
-    verbose=True,
+judge = Agent(
+    role="Presiding Judge",
+    goal="Ensure a fair trial by maintaining order in the court, ruling on objections, instructing the jury, and applying the law.",
+    backstory="An experienced jurist with a deep understanding of the law and a commitment to impartial justice.",
+    verbose=False,
     allow_delegation=False,
     llm=llm,
     max_iter=5,
@@ -115,96 +104,202 @@ Judge = Agent(
 
 jury = Agent(
     role="Jury Panel",
-    goal="Evaluate evidence and arguments to reach a fair verdict.",
-    backstory="Diverse group of 12 citizens selected for jury duty. Committed to impartiality and basing decisions solely on court evidence.",
-    verbose=True,
+    goal="Determine the facts of the case and reach a verdict based solely on the evidence presented in court.",
+    backstory="A diverse group of citizens sworn to impartially evaluate the evidence and follow the judge's instructions on the law.",
+    verbose=False,
     allow_delegation=False,
     llm=llm,
     max_iter=5,
     memory=True,
 )
 
-executioner = Agent(
-    role="Senior Corrections Officer",
-    goal="Carry out court sentences professionally and ethically, respecting inmates' rights.",
-    backstory="Experienced officer overseeing sentence implementation. Trained in ethics, conflict resolution, and maintaining order in the justice system.",
-    verbose=True,
+prosecutor = Agent(
+    role="District Attorney",
+    goal="Present the case against the accused on behalf of the state, adhering to ethical standards and seeking justice, not merely convictions.",
+    backstory="An experienced prosecutor dedicated to upholding the law and protecting public safety through fair and ethical prosecution.",
+    verbose=False,
     allow_delegation=False,
     llm=llm,
     max_iter=5,
     memory=True,
 )
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+defense_attorney = Agent(
+    role="Defense Counsel",
+    goal="Zealously represent the accused, ensuring their constitutional rights are protected and presenting the strongest possible defense.",
+    backstory="A skilled attorney committed to the principle that every accused person deserves a vigorous defense and a fair trial.",
+    verbose=False,
+    allow_delegation=False,
+    llm=llm,
+    max_iter=5,
+    memory=True,
+)
 
 def process_killer(killer):
     get_judge = Task(
-        description=f"""Preside over the court proceedings for {killer['Name']}, accused of {killer['Proven victims']} proven murders. 
-        Ensure a fair trial, and provide a final judgment based on the law and evidence presented. 
-        Your judgment MUST include a clear and specific sentence, such as 'death sentence', 'life imprisonment', or a specific number of years in prison. 
-        Always conclude your judgment with the phrase 'The sentence is: [specific sentence].'""",
-        expected_output="A detailed judgment including the verdict and a clearly specified sentence.",
-        agent=Judge,
+        description=f"""
+        As the presiding judge in the case of {killer['Name']}, accused of {killer['Proven victims']} proven murders:
+        1. Maintain order and decorum in the courtroom throughout the trial.
+        2. Make rulings on the admissibility of evidence and objections raised by counsel.
+        3. Provide clear instructions to the jury on the applicable laws and their duty.
+        4. If the defendant is found guilty, consider all relevant factors and determine an appropriate sentence within the bounds of the law.
+        5. Deliver a clear and concise judgment, explaining the reasoning behind your decision.
+        
+        Your final statement should include:
+        "Based on [key factors], the court sentences the defendant to [specific sentence]."
+        """,
+        expected_output="A comprehensive report on the trial proceedings, including key rulings, jury instructions, and if applicable, a clearly reasoned sentencing decision.",
+        agent=judge,
     )
-    
+
     get_jury = Task(
         description=f"""
-        As the jury in the case of {killer['Name']}, accused of {killer['Proven victims']} proven murders:
-        1. Review all evidence and arguments presented in court.
-        2. Deliberate as a group to reach a verdict on the facts of the case.
-        3. Provide a clear decision on guilt or innocence based solely on the evidence presented.
-        4. Explain the reasoning behind your verdict in your own words.
-        5. Do NOT repeat the judge's decision or sentencing - focus only on determining guilt or innocence.
-        Your response should be in the format:
-        "Verdict: [Guilty/Not Guilty]
-        Reasoning: [Your explanation]"
+        As jurors in the case of {killer['Name']}, accused of {killer['Proven victims']} proven murders:
+        1. Pay close attention to all evidence and testimony presented during the trial.
+        2. Follow the judge's instructions on the law and your responsibilities as jurors.
+        3. Deliberate as a group, considering only the evidence presented in court.
+        4. Reach a unanimous decision on whether the prosecution has proven guilt beyond a reasonable doubt.
+        5. Deliver your verdict to the court without any additional commentary or recommendations.
+        
+        Your response should be limited to:
+        "We, the jury, find the defendant [guilty/not guilty] of [specific charges]."
         """,
-        expected_output="A clear verdict (guilty or not guilty) with a brief explanation of the decision, in the jury's own words.",
+        expected_output="A clear, concise verdict on each charge, without any additional explanation or sentencing recommendations.",
         agent=jury,
     )
 
-    get_executioner = Task(
+    get_prosecutor = Task(
         description=f"""
-        Based on the Judge's sentencing for {killer['Name']} and following all legal and ethical guidelines, outline the steps to carry out the court's decision. 
-        Focus on maintaining the dignity and rights of the convicted while ensuring the sentence is properly executed.
-        Provide a concise list of steps, not exceeding 5 main points.
+        As the prosecutor in the case against {killer['Name']}, accused of {killer['Proven victims']} proven murders:
+        1. Present the state's case, introducing evidence and examining witnesses.
+        2. Make clear and persuasive opening and closing arguments.
+        3. Anticipate and respond to defense strategies.
+        4. Ensure all actions comply with legal and ethical standards.
+        5. If a guilty verdict is reached, recommend an appropriate sentence based on the law and the specific circumstances of the case.
+        
+        Provide a summary of your key arguments and evidence presented, and if applicable, your sentencing recommendation.
         """,
-        expected_output="A concise plan for carrying out the sentence in an ethical and lawful manner.",
-        agent=executioner,
+        expected_output="A concise summary of the prosecution's case, including key evidence and arguments, and if relevant, a sentencing recommendation.",
+        agent=prosecutor,
+    )
+
+    get_defense_attorney = Task(
+        description=f"""
+        As the defense attorney for {killer['Name']}, accused of {killer['Proven victims']} proven murders:
+        1. Vigorously defend your client's rights throughout the trial process.
+        2. Challenge the prosecution's evidence and arguments.
+        3. Present any exculpatory evidence or mitigating factors.
+        4. Make persuasive opening and closing statements.
+        5. If your client is found guilty, advocate for the most favorable sentence possible given the circumstances.
+        
+        Provide a summary of your defense strategy, key arguments, and if applicable, your position on sentencing.
+        """,
+        expected_output="A concise summary of the defense's case, including key arguments and evidence presented, and if relevant, arguments for leniency in sentencing.",
+        agent=defense_attorney,
+    )
+
+    crew_judge = Crew(
+        agents=[judge],
+        tasks=[get_judge],
+        verbose=2,
+    )
+
+    crew_jury = Crew(
+        agents=[judge, jury],
+        tasks=[get_judge, get_jury],
+        verbose=2,
+    )
+
+    crew_prosecutor = Crew(
+        agents=[judge, jury, prosecutor],
+        tasks=[get_judge, get_jury, get_prosecutor],
+        verbose=2,
     )
 
     crew = Crew(
-        agents=[Judge, jury, executioner],
-        tasks=[get_judge, get_jury, get_executioner],
+        agents=[judge, jury, prosecutor, defense_attorney],
+        tasks=[get_judge, get_jury, get_prosecutor, get_defense_attorney],
         verbose=2,
     )
-    
+
     try:
-        results = crew.kickoff()
-        
-        # Check if results is a string (single output) or a list of outputs
-        if isinstance(results, str):
-            combined_result = results
+        logger.info(f"Processing results for {killer['Name']}")
+
+        # Execute each crew and save results
+        results_judge = crew_judge.kickoff()
+        logger.info("Judge results obtained")
+        if isinstance(results_judge, list) and len(results_judge) > 0:
+            save_individual_results(killer['Name'], "Presiding Judge", results_judge[0].raw_output if hasattr(results_judge[0], 'raw_output') else str(results_judge[0]))
         else:
-            # Assume it's a list of objects with raw_output attribute
-            combined_result = "\n\n".join([r.raw_output for r in results if hasattr(r, 'raw_output')])
-        
-        markdown_report = f"""
-# Report for {killer['Name']}
+            logger.warning("Unexpected judge results format")
+            save_individual_results(killer['Name'], "Presiding Judge", str(results_judge))
 
-## Case Summary
-- **Defendant:** {killer['Name']}
-- **Charges:** {killer['Proven victims']} counts of murder
+        results_jury = crew_jury.kickoff()
+        logger.info("Jury results obtained")
+        if isinstance(results_jury, list) and len(results_jury) > 1:
+            save_individual_results(killer['Name'], "Jury Panel", results_jury[1].raw_output if hasattr(results_jury[1], 'raw_output') else str(results_jury[1]))
+        else:
+            logger.warning("Unexpected jury results format")
+            save_individual_results(killer['Name'], "Jury Panel", str(results_jury))
 
-## Combined Results
-{combined_result}
-"""
+        results_prosecutor = crew_prosecutor.kickoff()
+        logger.info("Prosecutor results obtained")
+        if isinstance(results_prosecutor, list) and len(results_prosecutor) > 2:
+            save_individual_results(killer['Name'], "District Attorney", results_prosecutor[2].raw_output if hasattr(results_prosecutor[2], 'raw_output') else str(results_prosecutor[2]))
+        else:
+            logger.warning("Unexpected prosecutor results format")
+            save_individual_results(killer['Name'], "District Attorney", str(results_prosecutor))
+
+        # Execute full crew to get defense attorney results
+        results = crew.kickoff()
+        logger.info("Full crew results obtained")
         
-        return markdown_report
+        # Save defense attorney results
+        if isinstance(results, list):
+            defense_result = next((r for r in results if hasattr(r, 'agent') and r.agent.role == "Defense Counsel"), None)
+            if defense_result:
+                save_individual_results(killer['Name'], "Defense Counsel", defense_result.raw_output if hasattr(defense_result, 'raw_output') else str(defense_result))
+            else:
+                logger.warning("Defense Counsel results not found in list")
+                save_individual_results(killer['Name'], "Defense Counsel", "Defense Counsel results not available")
+        else:
+            logger.warning("Unexpected full crew results format")
+            save_individual_results(killer['Name'], "Defense Counsel", str(results))
+
+        logger.info(f"All individual reports saved for {killer['Name']}")
+        
+        return "All reports generated and saved successfully."
     except Exception as e:
         logger.error(f"Error in process_killer for {killer['Name']}: {str(e)}")
         logger.error(f"Traceback: {traceback.format_exc()}")
         return f"Error processing {killer['Name']}: {str(e)}"
+
+def save_individual_results(killer_name, role, content):
+    try:
+        directory = "criminal_reports"
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+            logger.info(f"Created directory: {directory}")
+        
+        filename = f"{directory}/{killer_name.replace(' ', '_')}_{role.lower().replace(' ', '_')}_report.md"
+        
+        logger.info(f"Attempting to save file: {filename}")
+        
+        with open(filename, "w", encoding='utf-8') as f:
+            f.write(f"# {role} Report for {killer_name}\n\n")
+            f.write(content)
+        
+        logger.info(f"Successfully saved {role} report for {killer_name} in {filename}")
+        
+        # Verify file was created
+        if os.path.exists(filename):
+            logger.info(f"Verified: File {filename} exists")
+        else:
+            logger.error(f"File verification failed: {filename} does not exist")
+    
+    except Exception as e:
+        logger.error(f"Error in save_individual_results for {killer_name}, {role}: {str(e)}")
+        logger.error(f"Traceback: {traceback.format_exc()}")
 
 def analyze_sentence(result):
     result_lower = result.lower()
@@ -256,12 +351,6 @@ for _, killer in selected_killers.iterrows():
             sentence = analyze_sentence(result)
             sentences.append(sentence)
             logger.info(f"Extracted sentence for {killer['Name']}: {sentence}")
-            
-            # Save the report
-            report_filename = f"criminal_reports/{killer['Name'].replace(' ', '_')}_report.md"
-            with open(report_filename, 'w') as f:
-                f.write(result)
-            logger.info(f"Report saved as: {report_filename}")
         else:
             logger.warning(f"Error occurred while processing {killer['Name']}: {result}")
             sentences.append("Error")
@@ -270,11 +359,6 @@ for _, killer in selected_killers.iterrows():
         logger.error(f"Unexpected error processing {killer['Name']}: {str(e)}")
         logger.error(f"Traceback: {traceback.format_exc()}")
         sentences.append("Error")
-
-print("\nProcessed Killers and Sentences:")
-for killer, sentence, victims in zip(selected_killers['Name'], sentences, selected_killers['Proven victims']):
-    victim_count = safe_int(victims)
-    print(f"{killer} (Proven victims: {victim_count}): {sentence}")
 
 # Additional statistics
 selected_killers['Sentence'] = sentences
@@ -311,12 +395,6 @@ if not victim_count_data.empty:
 else:
     print("No valid victim count data for box plot")
 plt.close()
-
-print("\nAnalysis complete. Reports saved in 'criminal_reports' directory.")
-print("Visualizations saved as PNG files:")
-print("1. sentence_distribution.png")
-print("2. victim_count_by_killer.png (if valid data available)")
-print("3. victim_count_by_sentence.png (if valid data available)")
 
 # Print detailed results
 for killer, sentence, victims in zip(selected_killers['Name'], sentences, selected_killers['Proven victims']):

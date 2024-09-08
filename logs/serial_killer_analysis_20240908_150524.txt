@@ -1,0 +1,15 @@
+2024-09-08 15:05:24 - INFO - Script execution started
+2024-09-08 15:05:24 - INFO - Loaded CSV file with 811 entries
+2024-09-08 15:05:24 - INFO - Selected killer: Keith Hunter Jesperson
+2024-09-08 15:05:24 - INFO - Processing killer: Keith Hunter Jesperson
+2024-09-08 15:05:24 - INFO - Processing results for Keith Hunter Jesperson
+2024-09-08 15:05:26 - INFO - Judge results obtained
+2024-09-08 15:05:26 - ERROR - Error in process_killer for Keith Hunter Jesperson: 'str' object has no attribute 'raw_output'
+2024-09-08 15:05:26 - ERROR - Traceback: Traceback (most recent call last):
+  File "/tmp/slurm-sarim.hashmi-39392/ipykernel_403086/2302425633.py", line 231, in process_killer
+    save_individual_results(killer['Name'], "Presiding Judge", results_judge[0].raw_output)
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'raw_output'
+
+2024-09-08 15:05:26 - WARNING - Error occurred while processing Keith Hunter Jesperson: Error processing Keith Hunter Jesperson: 'str' object has no attribute 'raw_output'
+2024-09-08 15:05:26 - INFO - Script execution completed

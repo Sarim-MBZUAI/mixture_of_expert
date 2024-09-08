@@ -1,0 +1,12 @@
+2024-09-07 20:19:47 - INFO - Script execution started
+2024-09-07 20:19:47 - DEBUG - This is a debug message
+2024-09-07 20:19:47 - WARNING - This is a warning message
+2024-09-07 20:19:47 - ERROR - This is an error message
+2024-09-07 20:19:47 - INFO - Script execution started
+2024-09-07 20:19:47 - INFO - Loaded CSV file with 811 entries
+2024-09-07 20:19:47 - INFO - Selected killer: Keith Hunter Jesperson
+2024-09-07 20:19:47 - INFO - Processing killer: Keith Hunter Jesperson
+2024-09-07 20:19:51 - INFO - Successfully processed Keith Hunter Jesperson
+2024-09-07 20:19:51 - INFO - Extracted sentence for Keith Hunter Jesperson: MANUAL REVIEW REQUIRED: No clear sentence found
+2024-09-07 20:19:51 - INFO - Report saved as: criminal_reports/Keith_Hunter_Jesperson_report.md
+2024-09-07 20:19:52 - INFO - Script execution completed
